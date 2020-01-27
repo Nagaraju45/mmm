@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  coffee_cost: MyString
+  tea_cost: MyString
+  idly_cost: MyString
+  dosa_cost: MyString
+
+two:
+  name: MyString
+  coffee_cost: MyString
+  tea_cost: MyString
+  idly_cost: MyString
+  dosa_cost: MyString
