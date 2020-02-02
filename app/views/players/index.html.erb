@@ -1,23 +1,22 @@
-<table border = 2>
+<html>
+<body >
+<table class = "table table-striped">
 <tr>
 <th>Nmae</th>
 <th>Age</th>
-<th><Gender/th>
+<th>Gender</th>
 <th>Email</th>
-<th>Matches</th>
-<th>Innings</th>
-<th>Average</th>
+
 </tr>
 <% @players.each do |player| %>
-    <%= player.inspect%>
     <tr>
     <td><%= player.name %></td>
     <td><%= player.age %></td>
     <td><%= player.gender %></td>
     <td><%= player.email %></td>
-    <td><%= player.matches.matches %></td>
-    <td><%= player.matches.innings %></td>
-    <td><%= player.matches.average %></td>
+   
     </tr>
     <% end %>
 </table>
+</body>
+</html>
